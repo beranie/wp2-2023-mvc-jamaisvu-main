@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>notities</title>
+    <link rel="stylesheet" href="/Stylesheets/bewerken.css">
+</head>
+
+<body>
+    <ul>
+        <!--date_created?-->
+        {% for notes in all_notes %}
+        <li>{{notes.teacher_id}}</li>
+        <li>{{notes.is_public}}</li>
+        <li>{{notes.title}}</li>
+        <li>{{notes.note}}</li>
+        <li>{{notes.note_source}}</li>
+        <li>{{notes.category_id}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

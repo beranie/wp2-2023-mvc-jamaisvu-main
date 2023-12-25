@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>notities</title>
+    <link rel="stylesheet" href="/Stylesheets/aanmaken.css">
+</head>
+
+
+<body>
+    <main>
+        <div class="page">
+            <div class="left"></div>
+            <div class="middle">
+                
+                <!--date_created?-->
+                <form action="/databases/testgpt.db" id="template">
+                    <p>Teacher id: <input type="number" readonly="readonly" name="teacher_id"/></p>
+                    <p>Is Public:<input type=checkbox name="is_public"></p>
+                    <p>Title:<input type="text" name="title"/></p>
+                    <p>Note text:<input type="text" name="note"/></p>
+                    <p>Source: <input type="text" name="note_source" /></p>
+                    <p>Category id:<input type="number" name="category_id"/></p>
+                    <input type="submit" value="submit"/>
+                </form>
+
+            </div>
+            <div class="rigth"></div>
+        </div>
+    </main>
+</body>
+
+</html>
