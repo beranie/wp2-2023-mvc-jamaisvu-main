@@ -1,0 +1,105 @@
+footer {color: #fff;
+    background-color:#004df5;
+    font-family: Nunito,sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;}
+
+.top_footer {
+    background-color: rgb(22, 22, 130);
+    padding-top: 4%;
+    padding-bottom: 5%;}
+
+.test-correct {margin-left: 40%;}
+
+.part_off{    
+    font-size: 14px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 3.7px;
+    line-height: 24px;
+    position: absolute;
+    margin-left: -14.5%;
+    margin-top: 4%;}
+
+.company{
+    font-family: Zilla Slab,serif;
+    font-size: 19px;
+    font-stretch: 150%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.32px;
+    text-size-adjust: 100%;
+    position: absolute;
+    margin-left: -18%;
+    margin-top: 6.5%;}
+
+.adres{
+    font-size: 15px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 23.94px;
+    text-size-adjust: 100%;
+    position: static;
+    margin-left: 41%;
+    margin-top: 5.5%;}
+
+.socials{
+    display: flex;
+    justify-content: space-between;}
+
+.linkedin {
+    background: #004df5;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 41%;}
+
+.twitter{align-items: center;
+    background: #004df5;
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;}
+
+.facebook {
+    background: #004df5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-right: 44%;}
+
+.bottom_footer {
+    align-items: center;
+    background-color: #004df5;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    min-height: 64px;
+    padding: 10px 20px;
+    justify-content: center;}
+
+.spacing_text {
+    padding: 0 58px;
+    max-width: 1145px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 0 auto;}
+
+.text_B_footer {
+    display: flex;
+    justify-content: space-between;}
+
+a {color: #fff;text-decoration: none;}

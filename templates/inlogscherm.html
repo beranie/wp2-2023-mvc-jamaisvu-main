@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="/static/lay_out_inlogscherm/inlogscherm.css">
+    <title>Inlog database</title>
+</head>
+<body style="background-color: RGB(253, 255, 254)">
+
+    <a href="https://www.google.com/">
+    <img title="link naar inlogscherm" class="logo_size" src="/static/images/test_correct_logo.jpg">
+    </a>
+
+
+    <h1 class="center_2">Welkom bij test-GPT,</h1>
+    <p class="center_2"><b>U kunt met de tets-GPT notities aanmaken en bewerken. <br>
+        Bij deze notities kunt u zowel open vragen als
+    meerkeuze vragen generen<br> zodat het voor u gemakkelijk word om toets materiaal voor te bereiden.
+    </b></p>
+
+    <form class="center_2" action="/check_user" method="post" target="_self">
+      <div>
+        <label for="username"></label>
+        <input  type="text" id="username" name="username" placeholder="uw gebruikersnaam" required
+               oninvalid="setCustomValidity('ongeldige gebruikersnaam')"
+                oninput="setCustomValidity('')">
+          <br>
+          <br>
+
+        <label for="wachtwoord"></label>
+        <input type="password" id="wachtwoord" name="wachtwoord" placeholder="uw wachtwoord" required
+        oninvalid="setCustomValidity('ongeldig wachtwoord')"
+        oninput="setCustomValidity('')">
+
+          <br>
+          <br>
+
+
+        <input style="background-color: RGB(33, 126, 207)" type="submit" id="Login">
+        <br>
+        <br>
+      </div>
+    </form>
+    {% include 'footer_inlogscherm_account_aanmaken.html' %}
+
+</body>
+</html>

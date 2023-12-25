@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+myvenv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories (if you're using other dependency managers like pipenv)
+# Replace these with the appropriate directories if needed
+/node_modules/
+/bower_components/
+
+/databases

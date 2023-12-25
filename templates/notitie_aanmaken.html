@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+{% block content_head %}
+    <title>Button Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .calender-icon {
+          margin-left: 10px;
+        }
+        .inputTitle {
+          width: 260px;
+        }
+        .topElements {
+          margin-bottom: 20px;
+        }
+        .noteField {
+          width: 295px;
+          height: 80px;
+        }
+        .inputFieldNote {
+          margin-top: 5px;
+          margin-bottom: 20px;;
+        }
+        .inputSource {
+          width: 260px;
+        }
+        .checkBox {
+          margin-left: 160px;;
+        }
+        .public {
+          margin-top: 20px;
+        }
+        .categorySelect {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        .dropdowCategory {
+          width: 305px;
+        }
+
+        .SaveButton {
+          margin-right: 175px;
+          background-color: chartreuse;
+        }
+        .DeleteButton {
+          background-color: crimson;
+        }
+
+      </style>
+{% endblock content_head %}
+{% block content_body %}
+<h1>Notities toevoegen</h1>
+<form method="post">
+    <!-- titel -->
+    <div>
+        <input placeholder="Titel" name="titel">
+    </div>
+    <!-- bron -->
+    <div>
+        <label for="source">Bron</label>
+        <input type="text" class="inputSource" id="source" name="bron">
+      </div>
+    <!-- tekst in notitie-->
+    <div class="inputFieldNote">
+        <input name="tekst" type="text" class="noteField" placeholder="Plak in dit veld uw notitie"> 
+      </div>
+    <!-- categorie -->
+    <div class="categorySelect">
+        <select id="category" class="dropdowCategory" name="categorie">
+          <option value="category1" disabled selected>Selecteer een categorie</option>
+          <option value="category2">Biologie</option>
+          <option value="category3">Aardrijkskunde</option>
+          <option value="category4">Engels</option>
+        </select>
+      </div>
+    <!-- publiek beschikbaar -->
+    <div class="public">
+        <label for="publicAvailability">publiek beschikbaar</label>
+        <input class="checkBox" type="checkbox" id="publicAvailability" name="publiek">
+      </div>
+    <!-- opslaan -->
+    <div>
+        <button>
+            Opslaan
+        </button>
+    </div>
+</form>
+
+{% endblock content_body %}
