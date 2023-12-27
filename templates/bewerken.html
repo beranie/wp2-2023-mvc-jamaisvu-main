@@ -5,18 +5,14 @@
     <!-- <meta charset="UTF-8"> -->
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>testgpt</title>
-    <link rel="stylesheet" href="/Stylesheets/bewerken.css">
+    <link rel="stylesheet" href="/Stylesheets/aanmaken.css">
 </head>
 
 
 <body>
     <main>
-        <div class="page">
-            <div class="left"></div>
-            <div class="middle">
-                
                 <!--date_created?-->
-                <form method="post" action="/databases/testgpt.db"> <!-- of action="/index" ?-->
+                <form action="/databases/testgpt.db" id="template"> <!-- of action="/zoeken" ?-->
                     <p>Teacher id: <input type="number" readonly="readonly" name="teacher_id"/></p>
                     <p>Is Public:<input type=checkbox name="is_public"></p>
                     <p>Title:<input type="text" name="title"/></p>
@@ -24,15 +20,15 @@
                     <p>Source: <input type="text" name="note_source" /></p>
                     <p>Category id:<input type="number" name="category_id"/></p>
                     <p>
-                        vragen gedeelte
+                        
                     </p>
                     <input type="submit" value="opslaan"/>
                 </form>
-
-            </div>
-            <div class="rigth"></div>
-        </div>
     </main>
-</body>
+</body> 
+
+<footer>
+
+</footer>
 
 </html>
