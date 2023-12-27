@@ -7,9 +7,10 @@
 </head>
 
 <body>
-    {% for item in data %}
-    <div class="data_item">
-        {{item}}
+    {% for notes in all_notes %}
+    <div class="notitie_weergave">
+        <p>{{notes.title}}</p>
+        <button class="delete_knop">Verwijderen</button>
     </div>
     {% enfor %}
 </body>
