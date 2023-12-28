@@ -1,5 +1,5 @@
 import sqlite3
-from py.notitie_bewerken import Note
+from notitie_bewerken import Note
 from flask import Flask, render_template,request,jsonify, redirect
 
 app = Flask(__name__)
