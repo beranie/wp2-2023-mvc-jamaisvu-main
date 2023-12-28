@@ -1,0 +1,49 @@
+#template {
+    margin-left: 40%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 14.5px;
+    font-weight: normal;
+    color: #041f74;
+    background-color: #ffffff;}
+
+#docent {margin-left:-10%;}
+
+#openbaar {
+    margin-left: 31%;
+    margin-top: -5%;}
+
+#titel {margin-left: -10%;}
+#notitie {margin-left: -3.5%;}
+#bron {margin-left: -10%;}
+#categorie {margin-left: -10%;}
+
+input[name="teacher_id"] 
+{margin-left: 2%;
+ width: 223px;}
+
+input[name="title"] 
+{margin-left: 4.4%;
+ width: 320px;}
+
+ input[name="note"] 
+{margin-left: 2.5%;
+ width: 320px;
+ height: 320px;}
+
+ input[name="note_source"] 
+{margin-left: 4%;
+ width: 320px;}
+
+ input[name="category_id"] 
+{width: 320px;}
+
+input[type="submit"]
+{margin-left: 31%;
+ font-size: 16px;
+ color:#ffffff;
+ background-color:rgb(61, 187, 86);
+ box-sizing: border-box;
+ border-radius: 6px;
+ border-width: 0px;
+ padding: 8px 15px;}

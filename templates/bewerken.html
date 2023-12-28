@@ -12,20 +12,16 @@
 <body>
     <main>
         <!--date_created?-->
-        <form action="/databases/testgpt.db" id="template"> <!-- of action="/zoeken" ?-->
-            <p>Teacher id: <input type="number" readonly="readonly" name="teacher_id" /></p>
-            <p>Is Public:<input type=checkbox name="is_public"></p>
-            <p>Title:<input type="text" name="title" /></p>
-            <p>Note text:<input type="text" name="note" /></p>
-            <p>Source: <input type="text" name="note_source" /></p>
-            <p>Category id:<input type="number" name="category_id" /></p>
+        <form action="/databases/testgpt.db" id="template">
+            <p id="docent">Docent <input type="number" readonly="readonly" name="teacher_id" /></p>
+            <p id="openbaar">Openbaar <input type=checkbox name="is_public" /></p>
+            <p id="titel">Titel <input type="text" name="title" /></p>
+            <p id="notitie"><input type="text" name="note" /></p>
+            <p id="bron">Bron <input type="text" name="note_source" /></p>
+            <p id="categorie">Categorie <input type="number" name="category_id" /></p>
             <input type="submit" value="opslaan" />
         </form>
     </main>
 </body>
-
-<footer>
-
-</footer>
 
 </html>
